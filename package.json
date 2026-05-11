@@ -2,28 +2,20 @@
   "name": "homegoose_2",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/GooseStudent/tessting_2#readme",
-  "bugs": {
-    "url": "https://github.com/GooseStudent/tessting_2/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/GooseStudent/tessting_2.git"
-  },
   "license": "ISC",
   "author": "",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage",
-    "lint": "eslint ."
+  "test": "jest --coverage",
+  "lint": "eslint src",
+  "lint:fix": "eslint src --fix"
   },
   "devDependencies": {
     "@babel/cli": "^7.28.6",
     "@babel/core": "^7.29.0",
-    "@babel/eslint-parser": "^7.28.6",
     "@babel/preset-env": "^7.29.5",
-    "eslint": "^10.3.0",
+    "eslint": "^8.57.0",
     "jest": "^30.4.2"
   },
   "dependencies": {

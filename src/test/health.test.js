@@ -1,4 +1,4 @@
-import healthStatus from '../src/health';
+import healthStatus from '../health';
 
 test('health > 50 returns healthy', () => {
   const character = { name: 'Маг', health: 90 };
